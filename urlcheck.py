@@ -4,4 +4,4 @@ url = "https://www.nseindia.com/api/option-chain-indices?symbol=RELIANCE&expiryD
 
 response = requests.get(url)
 
-print(response.text)
+print(response)
